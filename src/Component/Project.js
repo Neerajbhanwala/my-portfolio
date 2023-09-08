@@ -22,9 +22,9 @@ function project() {
           </div>
           <div className="prj">
             <div className="prj-container">
-              <img src={Amazon} alt="Project-Image" />
-              <img src={Google} alt="Project-Image" />
-              <img src={Art} alt="Project-Image" />
+              <img src={Amazon} alt="-\Amazon-project" />
+              <img src={Google} alt="Google-project" />
+              <img src={Art} alt="Visual-Art-Gallery-Project" />
             </div>
           </div>
         </div>
