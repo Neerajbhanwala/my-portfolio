@@ -1,0 +1,150 @@
+.skills-main {
+    min-height: 550px;
+    width: 100%;
+    background: #f1f5fa;
+    font-family: paprika;
+  }
+  
+  .heddng {
+    font-size: 40px;
+    margin-left: 50px;
+  }
+  
+  .heddng-h {
+    margin-left: 50px;
+    font-size: 40px;
+  }
+  
+  .icon i {
+    font-size: 20px;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+  }
+  
+  .opt-main {
+    width: 890px;
+    min-height: 300px;
+    margin: 20px auto;
+    box-sizing: border-box;
+  }
+  
+  .opt-in {
+    background: #fff;
+    box-sizing: border-box;
+    height: 75px;
+    padding: 8px 0px;
+    float: left;
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 44%;
+    border-radius: 10px;
+    border: 2px solid #ebe8e8;
+    margin: 8px 20px;
+    cursor: pointer;
+  }
+  
+  .opt-logo {
+    height: 70%;
+    width: 13%;
+    display: flex;
+    margin: 9px 30px 0px 10px;
+    float: left;
+    transition: 0.2s;
+  }
+  
+  .opt-in:hover .opt-logo {
+    transform: scale(1.2);
+  }
+  
+  .discription {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(3px);
+  }
+  
+  .discription-content {
+    box-shadow: 2px 2px 10px #000;
+    padding: 20px;
+    height: auto;
+    max-height: 95vh;
+    overflow: auto;
+    width: 400px;
+    z-index: 100;
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid rgb(212, 210, 210);
+    animation-name: dsc-content;
+    animation-duration: 0.4s;
+  }
+  
+  @keyframes dsc-content {
+    from {
+      transform: scale(0);
+    }
+  
+    to {
+      transform: scale(1);
+    }
+  }
+  
+  li {
+    font-size: 19px;
+    padding: 5px 8px;
+  }
+  
+  button {
+    height: 47px;
+    width: 150px;
+    font-size: 20px;
+    margin-left: 55%;
+    background: none;
+    border-radius: 5px 5px 30px 5px;
+  }
+  
+  /* responsive code */
+  
+  @media only screen and (max-width: 960px) {
+    .opt-in {
+      float: none;
+      margin: 10px auto;
+      width: 400px;
+    }
+  
+    .opt-main {
+      width: 100%;
+      margin: 0%;
+    }
+  }
+  
+  @media only screen and (max-width: 460px) {
+    .opt-in {
+      float: none;
+      margin: 10px auto;
+      width: 300px;
+    }
+  
+    .heddng {
+      font-size: 30px;
+      margin: 0px;
+    }
+  
+    .heddng-h {
+      margin: 0px;
+    }
+  
+    .discription-content {
+      width: 350px;
+    }
+  }

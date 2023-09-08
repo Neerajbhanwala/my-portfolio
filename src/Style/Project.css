@@ -1,0 +1,76 @@
+.project-main {
+    min-height: 100px;
+    width: 100%;
+    background: rgb(226, 226, 253);
+    box-sizing: border-box;
+  }
+  .creation {
+    font-size: 50px;
+    font-family: cursive;
+    color: #b7c5d3;
+    margin-left: 50px;
+  }
+  .creation-h {
+    margin-left: 50px;
+  }
+  .personPic {
+    bottom: 0;
+    width: 46%;
+  }
+  .prj {
+    height: 300px;
+    width: 500px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+    box-sizing: border-box;
+    border-radius: 20px 20px 20px 20px;
+    white-space: nowrap;
+    /* box-shadow:inset 0px 0px 10px #000; */
+    background-color: transparent;
+    padding: 30px;
+  }
+  
+  .prj::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .prj-container {
+    height: 100%;
+    width: auto;
+  }
+  
+  .prj-container img {
+    height: 100%;
+    width: 100%;
+    padding: 0px 10px;
+    border-radius: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .personPic {
+      display: none;
+    }
+  
+    .prj {
+      height: auto;
+      width: 100%;
+      margin-left: 50px;
+    }
+    .creation {
+      font-size: 40px;
+    }
+  }
+  
+  @media (max-width: 460px) {
+    .creation {
+      font-size: 30px;
+      margin-left: 0px;
+    }
+    .creation-h {
+      margin-left: 0px;
+    }
+  }
+  

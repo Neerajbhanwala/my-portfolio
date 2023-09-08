@@ -1,0 +1,58 @@
+.main {
+    height: auto;
+    width: 100%;
+    background: rgb(252, 249, 249);
+  }
+  
+  .box {
+    border: 3px solid #06223f;
+    padding: 25px;
+    height: 220px;
+    width: 370px;
+    border-radius: 10px 10px 140px 10px;
+  }
+  
+  .hdng {
+    margin-left: 50px;
+    font-size: 50px;
+    font-family: cursive;
+    color: #b7c5d3;
+  }
+  .hdng-h {
+    margin-left: 50px;
+  }
+  .hireme-image {
+    height: 405px;
+    width: 352px;
+  }
+  .hireme-image img {
+    width: 100%;
+  }
+  
+  .box button {
+    background: #06223f;
+    margin: 10px 0px 0px 0px;
+    color: #fff;
+    border: none;
+    box-shadow: 2px 2px 5px #797878;
+  }
+  
+  @media (max-width: 768px) {
+    .hdng {
+      margin-left: 20px;
+      font-size: 30px;
+    }
+    .hdng-h {
+      margin-left: 20px;
+    }
+    .hireme-image {
+      display: none;
+    }
+    .cntnr {
+      padding: 20px;
+    }
+    .box {
+      font-size: 14px;
+    }
+  }
+  
