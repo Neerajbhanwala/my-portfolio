@@ -1,7 +1,13 @@
 import React from "react";
+import ReCAPTCHA from "react-google-recaptcha";
 import "../Style/Contact.css";
 
 function Contact() {
+
+  function onChange(value) {
+    console.log("Captcha value:", value);
+  }
+
   return (
     <>
       <div id="Contact" className="mains p-5">
@@ -30,6 +36,12 @@ function Contact() {
                 required
               ></textarea>
               <br />
+              <ReCAPTCHA
+    sitekey="6LfNhiMoAAAAAB4R4-cfsa9X5aIdPID7XwBKeiOT"
+    onChange={onChange}
+    required
+  />,
+  <br />
               <button type="submit">Submit</button>
             </form>
           </div>
